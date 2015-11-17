@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8 />
+    <title>Jaipur Edits</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.css' rel='stylesheet' />
+    <style>
+      body { margin:0; padding:0; }
+      #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+  </head>
+  <body>
+
+    <style>
+    .legend label,
+    .legend span {
+    display:block;
+    float:left;
+    height:10px;
+    width:30%;
+    text-align:center;
+    font-size:10px;
+    color:#808080;
+    }
+    </style>
+    
+    <div id='legend' style='display:none;'>
+      <strong>My Jaipur Edits in OSM</strong>
+      <nav class='legend clearfix'>
+	<span style='background:red;'></span>
+	<span style='background:blue;'></span>
+	<span style='background:green;'></span>
+	<label>Added roads</label>
+	<label>Added buildings</label>
+	<label>Modified nodes</label>
+	<small>Source: <a href="http://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a></small>
+	</div>
+
+    <div id='map'></div>
+    <script>
+      L.mapbox.accessToken = 'pk.eyJ1IjoibWFuaW5nIiwiYSI6IlhjWGNfdTQifQ.ras0nImWG638BCDSxU8bqw';
+      var map = L.mapbox.map('map', 'maning.10c628e6')
+      .setView([26.9117, 75.8161], 15);
+      map.legendControl.addLegend(document.getElementById('legend').innerHTML);
+      
+    </script>
+
+  </body>
+</html>
+
