@@ -20,10 +20,46 @@
     float:left;
     height:10px;
     width:30%;
+    left:20px;
     text-align:center;
     font-size:10px;
     color:#808080;
     }
+
+#inputs,
+#errors,
+#directions {
+    position: absolute;
+    width: 33.3333%;
+    max-width: 320px;
+    min-width: 200px;
+}
+
+#inputs {
+    z-index: 10;
+    top: 10px;
+    right: 10px;
+}
+
+#directions {
+    z-index: 99;
+    background: rgba(0,0,0,.8);
+    top: 25%;
+    right: 10px;
+    bottom: 0;
+    overflow: auto;
+}
+
+#errors {
+    z-index: 8;
+    opacity: 0;
+    padding: 10px;
+    border-radius: 0 0 3px 3px;
+    background: rgba(0,0,0,.25);
+    top: 90px;
+    left: 10px;
+}
+
     </style>
     
     <div id='legend' style='display:none;'>
@@ -35,11 +71,22 @@
 	<label>Added roads</label>
 	<label>Added buildings</label>
 	<label>Modified nodes</label>
-	<small>Source: <a href="http://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a></small>
-	</div>
+	<small>Source: <a href="https://www.mapbox.com/about/maps/">© Mapbox</a> <a href="http://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a></small>
+     </div>
+
+
 
     <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-hash/v0.2.1/leaflet-hash.js'></script>
+    <script src='https://api.mapbox.com/mapbox.js/plugins/mapbox-directions.js/v0.4.0/mapbox.directions.js'></script>
+    <link rel='stylesheet' href='https://api.mapbox.com/mapbox.js/plugins/mapbox-directions.js/v0.4.0/mapbox.directions.css' type='text/css' />
     <div id='map'></div>
+    <div id='inputs'></div>
+    <div id='errors'></div>
+    <div id='directions'>
+      <div id='routes'></div>
+      <div id='instructions'></div>
+    </div>
+
     <script>
 
       // Load map
@@ -74,10 +121,34 @@
         autocomplete: true
       }));
       map.legendControl.addLegend(document.getElementById('legend').innerHTML);
+      map.attributionControl.setPosition('bottomleft');
+      map.legendControl.setPosition('bottomleft');
+
+
+
+
      
       //show UTFGrid data on the UR corner on hover
       var jaipurTiles = L.mapbox.tileLayer('maning.10c628e6').addTo(map);
       var jaipurGrid = L.mapbox.gridLayer('maning.10c628e6').addTo(map);
+
+
+var directions = L.mapbox.directions();
+
+var directionsLayer = L.mapbox.directions.layer(directions, {attributionControl: false})
+    .addTo(map);
+
+var directionsInputControl = L.mapbox.directions.inputControl('inputs', directions)
+    .addTo(map);
+
+var directionsErrorsControl = L.mapbox.directions.errorsControl('errors', directions)
+    .addTo(map);
+
+var directionsRoutesControl = L.mapbox.directions.routesControl('routes', directions)
+    .addTo(map);
+
+var directionsInstructionsControl = L.mapbox.directions.instructionsControl('instructions', directions)
+    .addTo(map);
 
  
       
