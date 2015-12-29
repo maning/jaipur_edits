@@ -38,12 +38,48 @@
 	<small>Source: <a href="http://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a></small>
 	</div>
 
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-hash/v0.2.1/leaflet-hash.js'></script>
     <div id='map'></div>
     <script>
+
+      // Load map
       L.mapbox.accessToken = 'pk.eyJ1IjoibWFuaW5nIiwiYSI6IlhjWGNfdTQifQ.ras0nImWG638BCDSxU8bqw';
       var map = L.mapbox.map('map', 'maning.10c628e6')
       .setView([26.9117, 75.8161], 15);
+      var hash = L.hash(map);
+      
+      //Load places geojson, showing properties on click 
+      var myLayer = L.mapbox.featureLayer()
+      .loadURL('places.geojson')
+      .on('ready', function() {
+        myLayer.eachLayer(function(layer) {
+            var content = '<h2>' + layer.feature.properties.name + '<\/h2>' +
+                '<p>is a ' + layer.feature.properties.place  + '.' +  '<\/p>';
+             layer.bindPopup(content);
+                });        
+//          myLayer.eachLayer(function(marker) {
+//          marker.setIcon(L.mapbox.marker.icon({
+//                    'marker-color': '#ff8888',
+//                    'marker-size': 'large'
+//                }));
+//         });
+         map.fitBounds(myLayer.getBounds());
+         })
+      .addTo(map);
+      
+
+  
+      // Geocoder search with autocomplete
+      map.addControl(L.mapbox.geocoderControl('mapbox.places',{
+        autocomplete: true
+      }));
       map.legendControl.addLegend(document.getElementById('legend').innerHTML);
+     
+      //show UTFGrid data on the UR corner on hover
+      var jaipurTiles = L.mapbox.tileLayer('maning.10c628e6').addTo(map);
+      var jaipurGrid = L.mapbox.gridLayer('maning.10c628e6').addTo(map);
+
+ 
       
     </script>
 
