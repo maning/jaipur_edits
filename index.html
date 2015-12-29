@@ -18,9 +18,9 @@
     .legend span {
     display:block;
     float:left;
-    height:10px;
-    width:30%;
-    left:20px;
+    height:12px;
+    width:40px;
+    left:0;
     text-align:center;
     font-size:10px;
     color:#808080;
@@ -68,10 +68,11 @@
 	<span style='background:red;'></span>
 	<span style='background:blue;'></span>
 	<span style='background:green;'></span>
+        </br>
 	<label>Added roads</label>
 	<label>Added buildings</label>
 	<label>Modified nodes</label>
-	<small>Source: <a href="https://www.mapbox.com/about/maps/">© Mapbox</a> <a href="http://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a></small>
+	</br></br></br>
      </div>
 
 
@@ -120,9 +121,10 @@
       map.addControl(L.mapbox.geocoderControl('mapbox.places',{
         autocomplete: true
       }));
-      map.legendControl.addLegend(document.getElementById('legend').innerHTML);
+     
+      map.attributionControl.addAttribution(document.getElementById('legend').innerHTML);
       map.attributionControl.setPosition('bottomleft');
-      map.legendControl.setPosition('bottomleft');
+     
 
 
 
