@@ -1,0 +1,1328 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2015-12-29T10:09:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/2694201021",
+      "properties": {
+        "@id": "node/2694201021",
+        "name": "Durgapura",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-28T07:13:00Z",
+        "@version": 1,
+        "@changeset": 20821981,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.784527,
+          26.8506271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2673298035",
+      "properties": {
+        "@id": "node/2673298035",
+        "name": "Green Avenue Nagar",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-15T18:21:23Z",
+        "@version": 1,
+        "@changeset": 20582416,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7187554,
+          26.876433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2673299561",
+      "properties": {
+        "@id": "node/2673299561",
+        "name": "Kanak Vihar",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-15T18:23:05Z",
+        "@version": 1,
+        "@changeset": 20582447,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7151361,
+          26.8825315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2694208924",
+      "properties": {
+        "@id": "node/2694208924",
+        "name": "Mansarovar Sector 4",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-28T07:28:28Z",
+        "@version": 1,
+        "@changeset": 20821981,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7509072,
+          26.8756076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2670972391",
+      "properties": {
+        "@id": "node/2670972391",
+        "name": "Kanak Vihar",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-14T05:59:00Z",
+        "@version": 1,
+        "@changeset": 20552775,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7140556,
+          26.8864371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2694200943",
+      "properties": {
+        "@id": "node/2694200943",
+        "name": "Devi Nagar",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-28T07:12:58Z",
+        "@version": 1,
+        "@changeset": 20821981,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7661839,
+          26.8823447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2694200945",
+      "properties": {
+        "@id": "node/2694200945",
+        "name": "Barkat Nagar",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-28T07:12:58Z",
+        "@version": 1,
+        "@changeset": 20821981,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7855999,
+          26.878536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2694200841",
+      "properties": {
+        "@id": "node/2694200841",
+        "name": "Maheshnagar",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-28T07:12:56Z",
+        "@version": 1,
+        "@changeset": 20821981,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7747643,
+          26.8859523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2694200913",
+      "properties": {
+        "@id": "node/2694200913",
+        "name": "Gopalpura",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-28T07:12:58Z",
+        "@version": 1,
+        "@changeset": 20821981,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7781756,
+          26.881005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2694201032",
+      "properties": {
+        "@id": "node/2694201032",
+        "name": "Kartarpura",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-28T07:13:01Z",
+        "@version": 1,
+        "@changeset": 20821981,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7798729,
+          26.8830911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2694200960",
+      "properties": {
+        "@id": "node/2694200960",
+        "name": "Vasundhara Colony",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-28T07:12:59Z",
+        "@version": 1,
+        "@changeset": 20821981,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7862436,
+          26.8701535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2694200915",
+      "properties": {
+        "@id": "node/2694200915",
+        "name": "Pratap Nagar",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-28T07:12:58Z",
+        "@version": 1,
+        "@changeset": 20821981,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7919299,
+          26.8808145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3786560743",
+      "properties": {
+        "@id": "node/3786560743",
+        "AND_a_nosr_p": "10010264",
+        "name": "Bapu Nagar",
+        "place": "suburb",
+        "postal_code": "302015",
+        "source": "AND",
+        "@timestamp": "2015-10-14T19:03:11Z",
+        "@version": 1,
+        "@changeset": 34639647,
+        "@user": "PlaneMad",
+        "@uid": 1306
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8009576,
+          26.8850735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2694200963",
+      "properties": {
+        "@id": "node/2694200963",
+        "name": "Shyam Nagar",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-28T07:12:59Z",
+        "@version": 1,
+        "@changeset": 20821981,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7640167,
+          26.8877035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2694200878",
+      "properties": {
+        "@id": "node/2694200878",
+        "name": "Nandpuri",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-28T07:12:57Z",
+        "@version": 1,
+        "@changeset": 20821981,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.775569,
+          26.898459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2694201045",
+      "properties": {
+        "@id": "node/2694201045",
+        "name": "Govindpuri",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-28T07:13:01Z",
+        "@version": 1,
+        "@changeset": 20821981,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.773288,
+          26.8951417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2694200840",
+      "properties": {
+        "@id": "node/2694200840",
+        "name": "Civil Lines",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-28T07:12:56Z",
+        "@version": 1,
+        "@changeset": 20821981,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7805686,
+          26.9047068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2694201085",
+      "properties": {
+        "@id": "node/2694201085",
+        "name": "Hatwara",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-28T07:13:02Z",
+        "@version": 1,
+        "@changeset": 20821981,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7797318,
+          26.9123505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3786560744",
+      "properties": {
+        "@id": "node/3786560744",
+        "name": "Rambaug",
+        "place": "suburb",
+        "postal_code": "302005",
+        "@timestamp": "2015-10-14T19:03:11Z",
+        "@version": 1,
+        "@changeset": 34639647,
+        "@user": "PlaneMad",
+        "@uid": 1306
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8091027,
+          26.8948941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3901285119",
+      "properties": {
+        "@id": "node/3901285119",
+        "name": "Maa Hinglaaj Nagar",
+        "place": "neighbourhood",
+        "@timestamp": "2015-12-20T12:28:14Z",
+        "@version": 1,
+        "@changeset": 36064164,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7435266,
+          26.9462147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3901285144",
+      "properties": {
+        "@id": "node/3901285144",
+        "name": "Raghunath Nagar",
+        "place": "neighbourhood",
+        "@timestamp": "2015-12-20T12:28:14Z",
+        "@version": 1,
+        "@changeset": 36064164,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7489768,
+          26.9444913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3901285403",
+      "properties": {
+        "@id": "node/3901285403",
+        "name": "Shilp Colony",
+        "place": "neighbourhood",
+        "@timestamp": "2015-12-20T12:28:15Z",
+        "@version": 1,
+        "@changeset": 36064164,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7540344,
+          26.9438409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3901285110",
+      "properties": {
+        "@id": "node/3901285110",
+        "name": "Jhotwara Industrial Area",
+        "place": "neighbourhood",
+        "@timestamp": "2015-12-20T12:28:14Z",
+        "@version": 1,
+        "@changeset": 36064164,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7527694,
+          26.9585861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2692620858",
+      "properties": {
+        "@id": "node/2692620858",
+        "name": "Hasanpura",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-27T14:07:32Z",
+        "@version": 1,
+        "@changeset": 20809673,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7811263,
+          26.9194011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/245754854",
+      "properties": {
+        "@id": "node/245754854",
+        "AND_a_nosr_p": "10010268",
+        "name": "Bani Park",
+        "place": "suburb",
+        "postal_code": "302006",
+        "source": "AND",
+        "@timestamp": "2015-11-27T01:23:56Z",
+        "@version": 3,
+        "@changeset": 35603735,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7958012,
+          26.9316554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3901285065",
+      "properties": {
+        "@id": "node/3901285065",
+        "name": "Subhash Colony",
+        "place": "neighbourhood",
+        "@timestamp": "2015-12-20T12:28:13Z",
+        "@version": 1,
+        "@changeset": 36064164,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7606863,
+          26.9431905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3901285123",
+      "properties": {
+        "@id": "node/3901285123",
+        "name": "Sain Colony",
+        "place": "neighbourhood",
+        "@timestamp": "2015-12-20T12:28:14Z",
+        "@version": 1,
+        "@changeset": 36064164,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7642911,
+          26.9433053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2692620868",
+      "properties": {
+        "@id": "node/2692620868",
+        "name": "Amba Bari",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-27T14:07:32Z",
+        "@version": 1,
+        "@changeset": 20809673,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7755811,
+          26.9414196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3901285581",
+      "properties": {
+        "@id": "node/3901285581",
+        "name": "Ambabari",
+        "place": "neighbourhood",
+        "@timestamp": "2015-12-20T12:28:16Z",
+        "@version": 1,
+        "@changeset": 36064164,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7783245,
+          26.9446462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2692620776",
+      "properties": {
+        "@id": "node/2692620776",
+        "name": "Vidyadhar Nagar",
+        "place": "suburb",
+        "@timestamp": "2015-10-19T06:59:22Z",
+        "@version": 2,
+        "@changeset": 34725289,
+        "@user": "PlaneMad",
+        "@uid": 1306
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7748097,
+          26.9607854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2692620631",
+      "properties": {
+        "@id": "node/2692620631",
+        "name": "Sanjay Colony",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-27T14:07:27Z",
+        "@version": 1,
+        "@changeset": 20809673,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7865122,
+          26.9421848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2692620866",
+      "properties": {
+        "@id": "node/2692620866",
+        "name": "Nehru Nagar",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-27T14:07:32Z",
+        "@version": 1,
+        "@changeset": 20809673,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7864264,
+          26.9484019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2694374453",
+      "properties": {
+        "@id": "node/2694374453",
+        "name": "Sindhi Colony",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-28T11:10:58Z",
+        "@version": 1,
+        "@changeset": 20824840,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8181919,
+          26.8939438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3786305768",
+      "properties": {
+        "@id": "node/3786305768",
+        "AND_a_nosr_p": "10010266",
+        "name": "Adarsh Nagar",
+        "place": "suburb",
+        "postal_code": "302004",
+        "source": "AND",
+        "@timestamp": "2015-10-14T16:28:37Z",
+        "@version": 1,
+        "@changeset": 34636671,
+        "@user": "PlaneMad",
+        "@uid": 1306
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8163567,
+          26.8986698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3828782167",
+      "properties": {
+        "@id": "node/3828782167",
+        "name": "Frontier Colony",
+        "place": "neighbourhood",
+        "@timestamp": "2015-11-10T14:46:52Z",
+        "@version": 1,
+        "@changeset": 35216802,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8302312,
+          26.8985359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3828782164",
+      "properties": {
+        "@id": "node/3828782164",
+        "name": "Jawahar Nagar",
+        "place": "neighbourhood",
+        "@timestamp": "2015-11-10T14:46:52Z",
+        "@version": 1,
+        "@changeset": 35216802,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8361965,
+          26.8930427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3828824271",
+      "properties": {
+        "@id": "node/3828824271",
+        "name": "Anand Puri",
+        "place": "neighbourhood",
+        "@timestamp": "2015-11-10T14:55:10Z",
+        "@version": 1,
+        "@changeset": 35216802,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8234935,
+          26.9009461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3828824272",
+      "properties": {
+        "@id": "node/3828824272",
+        "name": "Dhado Ka Bagh",
+        "place": "neighbourhood",
+        "@timestamp": "2015-11-10T14:55:10Z",
+        "@version": 1,
+        "@changeset": 35216802,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8234077,
+          26.9066876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3828824275",
+      "properties": {
+        "@id": "node/3828824275",
+        "name": "Fateh Tibba",
+        "place": "neighbourhood",
+        "@timestamp": "2015-11-10T14:55:10Z",
+        "@version": 1,
+        "@changeset": 35216802,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8240664,
+          26.908094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3828782166",
+      "properties": {
+        "@id": "node/3828782166",
+        "name": "Guru Nanak Pura",
+        "place": "neighbourhood",
+        "@timestamp": "2015-11-10T14:46:52Z",
+        "@version": 1,
+        "@changeset": 35216802,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8267551,
+          26.8997214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3828782165",
+      "properties": {
+        "@id": "node/3828782165",
+        "name": "Janata Colony",
+        "place": "neighbourhood",
+        "@timestamp": "2015-11-10T14:46:52Z",
+        "@version": 1,
+        "@changeset": 35216802,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.833922,
+          26.9038173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3828782168",
+      "properties": {
+        "@id": "node/3828782168",
+        "name": "Saket Colony",
+        "place": "neighbourhood",
+        "@timestamp": "2015-11-10T14:46:53Z",
+        "@version": 1,
+        "@changeset": 35216802,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8325272,
+          26.9010991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2694374456",
+      "properties": {
+        "@id": "node/2694374456",
+        "name": "Burmese Colony",
+        "place": "neighbourhood",
+        "@timestamp": "2015-11-10T14:46:53Z",
+        "@version": 2,
+        "@changeset": 35216802,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8428285,
+          26.8997019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2694374470",
+      "properties": {
+        "@id": "node/2694374470",
+        "name": "Sethi Colony",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-28T11:10:58Z",
+        "@version": 1,
+        "@changeset": 20824840,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8426987,
+          26.903951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1005825796",
+      "properties": {
+        "@id": "node/1005825796",
+        "ele": "361",
+        "name": "Padi Meena",
+        "place": "village",
+        "source": "GPS",
+        "@timestamp": "2010-11-27T11:43:11Z",
+        "@version": 2,
+        "@changeset": 6468401,
+        "@user": "MJL Wood",
+        "@uid": 99655
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.9001474,
+          26.8834772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/315734346",
+      "properties": {
+        "@id": "node/315734346",
+        "capital": "4",
+        "ele": "431",
+        "is_capital": "state",
+        "is_in:continent": "Asia",
+        "is_in:country": "India",
+        "is_in:country_code": "IN",
+        "is_in:iso_3166_2": "IN-RJ",
+        "is_in:state": "Rajasthan",
+        "name": "Jaipur",
+        "name:en": "Jaipur",
+        "name:gu": "જયપુર",
+        "name:hi": "जयपुर",
+        "name:ja": "ジャイプル",
+        "name:ru": "Джайпур",
+        "name:ta": "செய்ப்பூர்",
+        "name:uk": "Джайпур",
+        "place": "city",
+        "place:cca": "a",
+        "population": "3073400",
+        "postal_code": "302001",
+        "wikipedia": "en:Jaipur",
+        "@timestamp": "2015-11-14T10:30:55Z",
+        "@version": 17,
+        "@changeset": 35303458,
+        "@user": "etajin",
+        "@uid": 2480327
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8204056,
+          26.9161293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3860850191",
+      "properties": {
+        "@id": "node/3860850191",
+        "name": "Mahavaton Ka Mohalla",
+        "place": "neighbourhood",
+        "@timestamp": "2015-11-26T14:45:38Z",
+        "@version": 1,
+        "@changeset": 35592304,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8356184,
+          26.9150484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2694374452",
+      "properties": {
+        "@id": "node/2694374452",
+        "name": "Transport Nagar",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-28T11:10:58Z",
+        "@version": 1,
+        "@changeset": 20824840,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8406173,
+          26.9125998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2694374469",
+      "properties": {
+        "@id": "node/2694374469",
+        "name": "Topkhana Hazuri",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-28T11:10:58Z",
+        "@version": 1,
+        "@changeset": 20824840,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8388148,
+          26.9188764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2694374455",
+      "properties": {
+        "@id": "node/2694374455",
+        "name": "Hida Ki Mori",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-28T11:10:58Z",
+        "@version": 1,
+        "@changeset": 20824840,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8386003,
+          26.9237743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2694368991",
+      "properties": {
+        "@id": "node/2694368991",
+        "name": "Govind Nagar",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-28T11:03:00Z",
+        "@version": 1,
+        "@changeset": 20824840,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.841261,
+          26.9366541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2694369032",
+      "properties": {
+        "@id": "node/2694369032",
+        "name": "Choudary Colony",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-28T11:03:01Z",
+        "@version": 1,
+        "@changeset": 20824840,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8376676,
+          26.9434772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2694374458",
+      "properties": {
+        "@id": "node/2694374458",
+        "name": "Brahmapuri",
+        "name:ja": "ブラフマプリー",
+        "place": "neighbourhood",
+        "@timestamp": "2015-11-14T07:22:47Z",
+        "@version": 2,
+        "@changeset": 35301040,
+        "@user": "etajin",
+        "@uid": 2480327
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8382041,
+          26.9445051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2694369038",
+      "properties": {
+        "@id": "node/2694369038",
+        "name": "Deewan Colony",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-28T11:03:01Z",
+        "@version": 1,
+        "@changeset": 20824840,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8476983,
+          26.9447256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2692620690",
+      "properties": {
+        "@id": "node/2692620690",
+        "name": "Mukend Pura",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-27T14:07:28Z",
+        "@version": 1,
+        "@changeset": 20809673,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7644242,
+          26.9693151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2692620818",
+      "properties": {
+        "@id": "node/2692620818",
+        "name": "Murlipura",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-27T14:07:31Z",
+        "@version": 1,
+        "@changeset": 20809673,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7657117,
+          26.9777304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2692620879",
+      "properties": {
+        "@id": "node/2692620879",
+        "name": "Murlipura Scheme",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-27T14:07:32Z",
+        "@version": 1,
+        "@changeset": 20809673,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.764789,
+          26.9717439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2694234541",
+      "properties": {
+        "@id": "node/2694234541",
+        "name": "Vishwakarma Industrial Area",
+        "place": "neighbourhood",
+        "@timestamp": "2014-02-28T07:56:01Z",
+        "@version": 1,
+        "@changeset": 20822449,
+        "@user": "parambyte",
+        "@uid": 715224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7840554,
+          26.9921975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/316420607",
+      "properties": {
+        "@id": "node/316420607",
+        "AND_a_nosr_p": "10010234",
+        "name": "Amer",
+        "place": "village",
+        "population": "5000",
+        "postal_code": "303101",
+        "source": "AND",
+        "@timestamp": "2015-06-12T20:59:34Z",
+        "@version": 7,
+        "@changeset": 31931873,
+        "@user": "indigomc",
+        "@uid": 136860
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8558916,
+          26.9888269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/86614775",
+      "properties": {
+        "@id": "way/86614775",
+        "landuse": "residential",
+        "name": "Padi Meena",
+        "place": "village",
+        "@timestamp": "2010-11-27T11:43:17Z",
+        "@version": 1,
+        "@changeset": 6468401,
+        "@user": "MJL Wood",
+        "@uid": 99655,
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.9003406,
+          26.8834054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/191861821",
+      "properties": {
+        "@id": "way/191861821",
+        "name": "df",
+        "place": "islet",
+        "@timestamp": "2012-11-21T05:04:54Z",
+        "@version": 1,
+        "@changeset": 13953897,
+        "@user": "sujandeb",
+        "@uid": 145671,
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8470684,
+          26.9900881
+        ]
+      }
+    }
+  ]
+}
