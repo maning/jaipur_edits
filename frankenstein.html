@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8 />
+    <title>Jaipur Edits</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.css' rel='stylesheet' />
+    <style>
+      body { margin:0; padding:0; }
+      #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+  </head>
+  <body>
+
+    <style>
+    .legend label,
+    .legend span {
+    display:block;
+    float:left;
+    height:15px;
+    width:65px;
+    left:0;
+    text-align:center;
+    font-size:15px;
+    color:#808080;
+    }
+
+#inputs,
+#errors,
+#directions {
+    position: absolute;
+    width: 33.3333%;
+    max-width: 320px;
+    min-width: 200px;
+}
+
+#inputs {
+    z-index: 10;
+    top: 10px;
+    right: 10px;
+}
+
+#directions {
+    z-index: 99;
+    background: rgba(0,0,0,.8);
+    top: 25%;
+    right: 10px;
+    bottom: 0;
+    overflow: auto;
+}
+
+#errors {
+    z-index: 8;
+    opacity: 0;
+    padding: 10px;
+    border-radius: 0 0 3px 3px;
+    background: rgba(0,0,0,.25);
+    top: 90px;
+    left: 10px;
+}
+
+    </style>
+    
+    <div id='legend' style='display:none;'>
+      <strong>My Jaipur Edits in OSM</strong>
+      <nav class='legend clearfix'>
+	<span style='background:red;'></span>
+	<span style='background:blue;'></span>
+	<span style='background:green;'></span>
+        </br>
+	<label>Added roads</label>
+	<label>Added buildings</label>
+	<label>Modified nodes</label>
+	</br></br></br>
+     </div>
+
+
+
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-hash/v0.2.1/leaflet-hash.js'></script>
+    <script src='https://api.mapbox.com/mapbox.js/plugins/mapbox-directions.js/v0.4.0/mapbox.directions.js'></script>
+    <link rel='stylesheet' href='https://api.mapbox.com/mapbox.js/plugins/mapbox-directions.js/v0.4.0/mapbox.directions.css' type='text/css' />
+    <div id='map'></div>
+    <div id='inputs'></div>
+    <div id='errors'></div>
+    <div id='directions'>
+      <div id='routes'></div>
+      <div id='instructions'></div>
+    </div>
+
+    <script>
+
+      // Load map
+      L.mapbox.accessToken = 'pk.eyJ1IjoibWFuaW5nIiwiYSI6IlhjWGNfdTQifQ.ras0nImWG638BCDSxU8bqw';
+      var map = L.mapbox.map('map', 'maning.10c628e6',{ zoomControl: false })
+      .setView([26.9117, 75.8161], 15);
+      var hash = L.hash(map);
+      
+      //Load places geojson, showing properties on click 
+      var myLayer = L.mapbox.featureLayer()
+      .loadURL('places.geojson')
+      .on('ready', function() {
+        myLayer.eachLayer(function(layer) {
+            var content = '<h2>' + layer.feature.properties.name + '<\/h2>' +
+                '<p>is a ' + layer.feature.properties.place  + '.' +  '<\/p>';
+             layer.bindPopup(content);
+                });        
+          myLayer.eachLayer(function(marker) {
+          marker.setIcon(L.mapbox.marker.icon({
+                    'marker-color': '#ff8888',
+                    'marker-size': 'small',
+                    'marker-symbol': 'village'
+                }));
+          });
+         map.fitBounds(myLayer.getBounds());
+         })
+      .addTo(map);
+      
+
+  
+      // Geocoder search with autocomplete
+      map.addControl(L.mapbox.geocoderControl('mapbox.places',{
+        autocomplete: true
+      }));
+     
+
+     // Custom info control with html legend
+     map.attributionControl.addAttribution(document.getElementById('legend').innerHTML);
+     map.attributionControl.setPosition('bottomleft');
+     
+      // Add other basemaps
+
+     //var layers = {
+     //             Streets: L.mapbox.tileLayer('mapbox.streets'),
+     //             Outdoors: L.mapbox.tileLayer('mapbox.outdoors'),
+     //             Satellite: L.mapbox.tileLayer('mapbox.satellite')
+     //};
+
+     //layers.Streets.addTo(map);
+     // L.control.layers(layers).addTo(map);
+
+
+     
+      //show UTFGrid data on the UR corner on hover
+      //var jaipurTiles = L.mapbox.tileLayer('maning.10c628e6').addTo(map);
+      //var jaipurGrid = L.mapbox.gridLayer('maning.10c628e6').addTo(map);
+
+      // Directions
+      var directions = L.mapbox.directions();
+
+      var directionsLayer = L.mapbox.directions.layer(directions, {attributionControl: false})
+          .addTo(map);
+
+      var directionsInputControl = L.mapbox.directions.inputControl('inputs', directions)
+          .addTo(map);
+
+      var directionsErrorsControl = L.mapbox.directions.errorsControl('errors', directions)
+          .addTo(map);
+
+      var directionsRoutesControl = L.mapbox.directions.routesControl('routes', directions)
+          .addTo(map);
+
+      var directionsInstructionsControl = L.mapbox.directions.instructionsControl('instructions', directions)
+          .addTo(map);
+
+ 
+      
+    </script>
+
+  </body>
+</html>
+
